@@ -130,7 +130,7 @@ const app = {
   },
   getData: function () {
     const dataString = localStorage.getItem("my-to-do-data");
-    this.listData = JSON.parse(dataString);
+    if (dataString) this.listData = JSON.parse(dataString);
   },
 
   start: function () {
