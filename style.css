@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  width: 400px;
+  margin: auto;
+}
+ul .item {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+ul .item .done {
+  text-decoration: line-through;
+}
+.input-box {
+  margin: 20px 0;
+}
+.input {
+  padding: 4px 8px;
+}
+.btn {
+  padding: 4px 8px;
+  cursor: pointer;
+}
+ul .item a {
+  text-decoration: none;
+  color: #333;
+  margin-left: 10px;
+  font-size: 15px;
+}
+ul .item .delete-btn {
+  color: rgb(168, 21, 21);
+}
+.setting {
+  margin-top: 20px;
+}
+.item-container {
+  width: 100%;
+}
