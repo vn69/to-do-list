@@ -30,6 +30,7 @@ const app = {
         let id = this.editData.id;
         this.listData[id].content = input.value;
         this.listData[id].isComplete = this.editData.isComplete;
+        this.isEdit = !this.isEdit;
         addBtn.innerText = "Add";
       }
       input.value = "";
