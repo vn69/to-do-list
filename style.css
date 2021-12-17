@@ -15,6 +15,10 @@ ul .item {
   list-style: none;
   display: flex;
   justify-content: space-between;
+
+  padding: 4px;
+  background-color: #e9f1ff;
+  margin-bottom: 5px;
 }
 ul .item .done {
   text-decoration: line-through;
